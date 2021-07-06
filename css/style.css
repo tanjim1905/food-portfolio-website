@@ -66,7 +66,7 @@ header{
 }
 
 #about{
-    background-image: url(/images/about-bg.png);
+    background-image: url('../images/about-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0 5%;
@@ -157,7 +157,8 @@ header{
 .box {
     display: flex;
     box-shadow: 5px 10px 50px #ddd5d5;
-    text-align: center; 
+    text-align: center;
+    border-radius: 10px; 
 }
 
 .box div{
